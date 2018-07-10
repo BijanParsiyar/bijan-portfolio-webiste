@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 355px;
+  width: 100%;
+  overflow: hidden;
+  border-top: 5px solid #d4d4d4;
+  background-color: white;
+}
+
+input {
+  border-radius: 5px;
+}
+
+.footer-header {
+  font-weight: 900px;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  padding: 75px;
+  margin-top: -45px;
+  margin-bottom: 5px;
+}
+
+.w3-bar-item {
+  text-decoration: underline;
+}
+
+.w3-bar-item:hover {
+  color: grey;
+}
+
+button {
+  width: 35%;
+  align-items: flex-end;
+}
+
+.landing {
+  position: relative;
+  background: url("https://amazingpict.com/wp-content/uploads/2016/08/Pictures-download-abstract-minimalist-wallpaper-HD.jpg")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+  padding-top: 77px;
+  padding-bottom: 50px;
+}
+
+.landing-hook {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.landing-subhook {
+  font-size: 17px;
+  font-weight: 200;
+  word-spacing: 3px;
+}
+
+link {
+  color: blue;
+}
+
+.social-buttons {
+  margin: 3px;
+  border-radius: 25px;
+}
+
+.landing-about {
+  position: relative;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 100px;
+}
+
+.about-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-page-hire {
+  font-size: 23px;
+}
+
+.about-social-icons {
+  display: inline;
+}
+
+.about-opening {
+  font-size: 20px;
+  word-spacing: 3px;
+  padding-bottom: 30px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.w3-bar-item {
+  margin: 5px;
+}
+
+.blog {
+  position: relative;
+  height: 140vh;
+  padding-top: 100px;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+}
+
+.blog-item {
+  position: relative;
+  height: 140vh;
+  padding-top: 100px;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+}
+
+.landing-about {
+  position: relative;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  height: 140vh;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.landing-blog-item {
+  position: relative;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  height: 140vh;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.post-header {
+  font-weight: 800;
+  margin: 34px;
+}
+
+.post-text {
+  line-height: 35px;
+  font-weight: 400px;
+  word-spacing: 1.5px;
+}
+
+.landing-projects {
+  position: relative;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  height: 170vh;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+img {
+  height: 20rem;
+  width: 20.5rem;
+}
